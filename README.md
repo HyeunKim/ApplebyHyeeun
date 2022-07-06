@@ -6,6 +6,12 @@ Apple 사이트의 일부 파트를 클론코딩하려 합니다.
 
 개발 사이트는 [애플byHyeeun](http://applebyhyeeun.dothome.co.kr) 입니다.
 
+클론할 사이트
+
+1. [애플 메인 사이트](https://www.apple.com/kr/)
+2. [애플 스토어 사이트](https://www.apple.com/kr/store)
+3. 된다면 메인에서 더 알아보기 클릭 - [아이패드 상세 사이트](https://www.apple.com/kr/macbook-pro-13/)
+
 ---
 
 - 개발 일지 및 공부는 study 폴더에서 기록합니다.
