@@ -4,6 +4,8 @@
 
 Apple 사이트의 일부 파트를 클론코딩하려 합니다.
 
+개발 사이트는 [애플byHyeeun](http://applebyhyeeun.dothome.co.kr) 입니다.
+
 ---
 
 - 개발 일지 및 공부는 study 폴더에서 기록합니다.
