@@ -44,7 +44,11 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.98.0" />
+    <!-- <link href="./img/apple.png" rel="shortcut icon" type="image/x-icon"> -->
+    
     <title>AppleByHyeeun</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/apple.ico">
+
 
     <!-- <link
       rel="canonical"
@@ -58,12 +62,23 @@
       crossorigin="anonymous"
     /> -->
 
+    <!-- 부트스트랩 메뉴바 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
+    <!-- 아이콘 -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css"> -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+  />
+    <script src="https://use.fontawesome.com/releases/v3.2.0/js/all.js"></script>
+
+    <!-- <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script> -->
 
     <!-- Favicons -->
     <!-- <link
@@ -273,6 +288,10 @@
         color: rgb(255, 255, 255);
       }
 
+      i:hover {
+        color: white;
+      }
+
       .header-black {
         background-color: rgb(41, 41, 41);
         position: fixed;
@@ -421,7 +440,9 @@
         <div class="container">
           <header class="d-flex justify-content-center py-3 header-black">
             <ul class="nav nav-pills">
-              <li class="nav-item"><a href="http://applebyhyeeun.dothome.co.kr" class="nav-link">Apple</a></li>
+              <li class="nav-item"><a href="http://applebyhyeeun.dothome.co.kr" class="nav-link">
+                <span style="color:rgb(208, 208, 208)"><i class="fa fa-apple"></i></span>
+                </a></li>
               <li class="nav-item"><a href="#" class="nav-link">스토어</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Mac</a></li>
               <li class="nav-item"><a href="#" class="nav-link">iPad</a></li>
@@ -441,10 +462,14 @@
                 <a href="#" class="nav-link">고객 지원</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">검색</a>
+                <a href="#" class="nav-link">
+                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-search" aria-hidden="true"></i></span>
+                  </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">장바구니</a>
+                <a href="#" class="nav-link">
+                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                </a>
               </li>
               <!-- <li class="nav-item">
                 <a href="#" class="nav-link active" aria-current="page">Home</a>
@@ -468,6 +493,8 @@
         <br /><br /><br /><br /><br /><br />
         <p style="font-size: 50px; margin-bottom: 0px">
           <b>iPhone 13</b>
+          <!-- <span style="color:rgb(208, 208, 208)"><i class="fa fa-apple" aria-hidden="true"></i></span> -->
+          
         </p>
 
         <p style="font-size: 25px">일상을 위한 비상한 능력.</p>
