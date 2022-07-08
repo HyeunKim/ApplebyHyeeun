@@ -4,7 +4,7 @@
 
 Apple 사이트의 일부 파트를 클론코딩하려 합니다.
 
-개발 사이트는 [애플byHyeeun](http://applebyhyeeun.dothome.co.kr) 입니다.
+개발 사이트는 [애플byHyeeun](http://applebyhyeeun.dothome.co.kr/test3.html) 입니다.
 
 클론할 사이트
 

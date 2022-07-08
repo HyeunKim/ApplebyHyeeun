@@ -171,8 +171,8 @@
       }
 
       .divider-space-he {
-        height: 1000;
-        background: red;
+        height: 10px;
+        /* background: red; */
       }
 
       .contents-he {
@@ -203,13 +203,45 @@
         /* padding-bottom: 500px; */
       }
 
+      .contents-he-mbpr {
+        text-align: center;
+        cursor: pointer;
+        height: 600px;
+      }
+
+      .contents-he-3 {
+        /* height: 1000; */
+        /* background: red; */
+        color: black;
+        
+        cursor: pointer;
+        /* width: 100%; */
+        height: 900px;
+
+        background-image: url("img/macbookair_2.png");
+        background-size: cover;
+        background-position: center;
+        /* position: relative; */
+        /* padding-bottom: 500px; */
+        margin-top: 0px;
+      }
+
+      .words {
+        text-align: center;
+        /* position: absolute; */
+        width: 500px;
+        margin: 0px;
+        margin-left: 200px;
+        padding-top: 380px;
+      }
+
       a.he:link {
         text-decoration: underline;
-        color: rgb(49, 49, 255);
+        /* color: rgb(74, 74, 223); */
       }
       a.he:visited {
         text-decoration: underline;
-        color: rgb(49, 49, 255);
+        color: rgb(27, 123, 196);
       }
       a.he:hover {
         text-decoration: underline;
@@ -249,6 +281,62 @@
         left: 0;
         right: 0;
         height: 500;
+      }
+
+      div.div-he{
+        /* width: 100%; */
+        height: 650px;
+        /* margin-bottom: 10px; */
+        /* background: blue; */
+        /* margin-bottom: 10px; */
+      }
+
+      .div-he-left{
+        width: 49%;
+        margin-left: 10px;
+        /* margin-right: 5px; */
+        float: left;
+        box-sizing: border-box;
+        /* background: ba; */
+        
+      }
+
+      .div-he-right{
+        /* margin-left: 5px; */
+        margin-right: 10px;
+        width: 49%;
+        float: right;
+        box-sizing: border-box;
+        /* background: blue; */
+        
+        /* color:white; */
+
+      }
+
+      .mbpro {
+        background-image: url("img/mbp13_2.jpg");
+        background-size: cover;
+        background-position: center;
+        color:white;
+      }
+
+      .ipad_air {
+        background-image: url("img/ipadair_2.jpg");
+        background-size: cover;
+        background-position: center;
+        color:white;
+      }
+
+      .iphone13pro {
+        background-image: url("img/iphone13pro_2.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      .ipad {
+        background-image: url("img/ipad_2.jpg");
+        background-size: cover;
+        background-position: center;
       }
     </style>
 
@@ -392,7 +480,7 @@
       <div class="divider-space-he"></div>
 
       <div class="contents-he-2" OnClick="location.href ='https://google.com'"
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br />
         <!-- <img src="./img/ogo_watch.png"> -->
         <p style="font-size: 50px; margin-bottom: 0px">
             <b>WATCH</b>
@@ -405,12 +493,96 @@
         </p>
         <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
       </div>
+
+      <div class="divider-space-he"></div>
+
+      <div class="contents-he-3" OnClick="location.href ='https://google.com'">
+        <div class = "words">
+            <p style="font-size: 50px; margin-bottom: 0px">
+                <b>MacBook Air</b>
+              </p>
+              <p style="font-size: 18px; margin-bottom: 0px; margin-top: 0px;"> 막강한 성능의 M2</p>
+            <p style="font-size: 25px; margin-top: 10px; color: rgb(60, 60, 60)">7월 8일 오후 9시 주문 시작.</p>
+            <p style="font-size: 18px">
+                <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
+                <a href="" class="no-uline he">구입하기 ></a>
+            </p>
+        </div>
+        
+        <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+      </div>
+
+      <div class="divider-space-he"></div>
+
+      <div class ="div-he">
+        <div class="div-he-left mbpro">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+        <!-- <img src="./img/ogo_watch.png"> -->
+        <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
+            <b>MacBook Pro 13</b>
+          </p>
+          <img src="./img/logo_m2_black.png" width="170px">
+        <p style="font-size: 16px; margin-top: 20px;">
+            <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
+            <a href="" class="no-uline he">구입하기 ></a>
+        </p>
+        <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+      </div>
+        </div>
+        <div class="div-he-right iphone13pro">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+                <!-- <img src="./img/ogo_watch.png"> -->
+                <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
+                    <b>iPhone 13 Pro</b>
+                  </p>
+                  <p style="font-size: 20px;">이게 바로 프로.</p>
+                <p style="font-size: 16px; margin-top: 20px;">
+                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
+                    <a href="" class="no-uline he">구입하기 ></a>
+                </p>
+                <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+              </div>
+        </div>
+      </div>
+
+      <div class ="div-he">
+        <div class="div-he-left ipad_air">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+                <!-- <img src="./img/ogo_watch.png"> -->
+                <img src="./img/logo_ipadair.png" width="150px" style="margin-top: 50px;">
+                  <p style="font-size: 20px;">가뿐하게. 색다르게. 강렬하게.</p>
+                <p style="font-size: 16px; margin-top: 20px;">
+                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
+                    <a href="" class="no-uline he">구입하기 ></a>
+                </p>
+                <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+              </div>
+        </div>
+        <div class="div-he-right ipad">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+                <!-- <img src="./img/ogo_watch.png"> -->
+                <br><br><Br><Br><br><br><br><br><Br><Br><br><br><br><br><Br><Br><br><br>
+                    <p style="font-size: 15px; margin-bottom: 0px;">새로워진</p>
+                <p style="font-size: 40px; margin-top: 0px; margin-bottom: 0px;">
+                    <b>iPad</b>
+                  </p>
+                  <p style="font-size: 20px;">매사를 더욱 쉽게.</p>
+                <p style="font-size: 16px; margin-top: 20px;">
+                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
+                    <a href="" class="no-uline he">구입하기 ></a>
+                </p>
+                <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+              </div>
+        </div>
+      </div>
+
+
     </main>
 
     <script
       src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
+      crossorigin="anonymous" 
     ></script>
   </body>
 </html>
