@@ -181,8 +181,9 @@
         color: red;
       }
 
-      .nav-link {
-        background: red;
+      .nav-link:hover {
+        /* background: red; */
+        text-decoration: underline;
       }
 
       .divider-space-he {
@@ -293,21 +294,27 @@
       }
 
       .header-black {
-        background-color: rgb(41, 41, 41);
-        position: fixed;
+        background-color: rgb(50, 50, 50);
+        /* background-color: red; */
+        
         top: 0;
         /* width: 100% */
         left: 0;
         right: 0;
         height: 500;
+        font-size: 11px;
+        height: 45px;
+        /* text-align: center; */
+        position: fixed;
       }
 
       div.div-he{
         /* width: 100%; */
-        height: 650px;
-        /* margin-bottom: 10px; */
+        height: 640px;
+        margin-bottom: 10px;
         /* background: blue; */
         /* margin-bottom: 10px; */
+        padding-bottom: 0px;
       }
 
       .div-he-left{
@@ -339,6 +346,18 @@
         color:white;
       }
 
+      .airpods {
+        background-color: black;
+        background-image: url("img/airpods_cube.jpg");
+        background-repeat: no-repeat;
+        background-size : 40% 60%;
+        /* background-size: 50%; */
+        /* background-size: cover; */
+        background-position: center bottom;
+        color:white;
+        /* height: 80%; */
+      }
+
       .ipad_air {
         background-image: url("img/ipadair_2.jpg");
         background-size: cover;
@@ -356,6 +375,58 @@
         background-image: url("img/ipad_2.jpg");
         background-size: cover;
         background-position: center;
+      }
+      
+      .footer-he {
+        background-color: white;
+      }
+
+      .container {
+        background-color: pink;
+        position: fixed;
+      }
+
+      .main-he {
+        /* background-color: yellow; */
+        margin-bottom: -40px;
+        margin-top:0px;
+      }
+
+      .container-he {
+        margin-top: 0px;
+      }
+
+      .footer-he-2 {
+        width:1000px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin: 0px 0px 0px -500px;
+      }
+
+      .footer-box {
+        /* background-color: black; */
+        padding-top: 50px;
+      }
+
+      .font-he {
+        font-size: 12px;
+      }
+
+      .nav-link-he:hover {
+        text-decoration: none;
+      }
+
+      .nav-pills {
+        /* background-color: yellow; */
+        /* margin-top: -16px; */
+        padding-top:5px;
+        margin-left: 15%;
+        /* padding-left: 30px; */
+      }
+
+      .nav-link-he {
+        margin-right: 17px;
       }
     </style>
 
@@ -405,7 +476,7 @@
       </symbol>
     </svg> -->
 
-    <main>
+    <main class="main-he">
       <h1 class="visually-hidden">Headers examples</h1>
 
       <!-- <div class="container">
@@ -439,36 +510,36 @@
         <!-- p-3 bg-dark text-white -->
         <div class="container">
           <header class="d-flex justify-content-center py-3 header-black">
-            <ul class="nav nav-pills">
-              <li class="nav-item"><a href="http://applebyhyeeun.dothome.co.kr" class="nav-link">
-                <span style="color:rgb(208, 208, 208)"><i class="fa fa-apple"></i></span>
+            <ul class="nav nav-pills header-black">
+              <li class="nav-item"><a href="http://applebyhyeeun.dothome.co.kr" class="nav-link  nav-link-he">
+                <span style="color:rgb(208, 208, 208)"><i class="fa fa-apple fa-lg"></i></span>
                 </a></li>
-              <li class="nav-item"><a href="#" class="nav-link">스토어</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Mac</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">iPad</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">iPhone</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Watch</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">AirPods</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/store" class="nav-link nav-link-he">스토어</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/mac/" class="nav-link nav-link-he">Mac</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/ipad/" class="nav-link nav-link-he">iPad</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/iphone/" class="nav-link nav-link-he">iPhone</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/watch/" class="nav-link nav-link-he">Watch</a></li>
+              <li class="nav-item"><a href="https://www.apple.com/kr/airpods/" class="nav-link nav-link-he">AirPods</a></li>
               <li class="nav-item">
-                <a href="#" class="nav-link">TV 및 홈</a>
+                <a href="https://www.apple.com/kr/tv-home/" class="nav-link nav-link-he">TV 및 홈</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Apple 독점 제공</a>
+                <a href="https://www.apple.com/kr/services/" class="nav-link nav-link-he">Apple 독점 제공</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">액세서리</a>
+                <a href="https://www.apple.com/kr/shop/accessories/all" class="nav-link nav-link-he">액세서리</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">고객 지원</a>
+                <a href="https://support.apple.com/ko-kr" class="nav-link nav-link-he">고객 지원</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-search" aria-hidden="true"></i></span>
+                <a href="https://support.apple.com/ko-kr" class="nav-link">
+                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-search fa-lg" aria-hidden="true"></i></span>
                   </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                <a href="https://support.apple.com/ko-kr" class="nav-link">
+                  <span style="color:rgb(208, 208, 208)"><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></span>
                 </a>
               </li>
               <!-- <li class="nav-item">
@@ -489,8 +560,8 @@
         </div>
       </header>
 
-      <div class="contents-he" OnClick="location.href ='https://naver.com'"
-        <br /><br /><br /><br /><br /><br />
+      <div class="contents-he" OnClick="location.href ='https://www.apple.com/kr/iphone-13/'">
+        <br /><br /><br /><br />
         <p style="font-size: 50px; margin-bottom: 0px">
           <b>iPhone 13</b>
           <!-- <span style="color:rgb(208, 208, 208)"><i class="fa fa-apple" aria-hidden="true"></i></span> -->
@@ -499,15 +570,15 @@
 
         <p style="font-size: 25px">일상을 위한 비상한 능력.</p>
         <p style="font-size: 18px">
-          <a href="https://naver.com" class="no-uline he">더 알아보기 ></a>
-          <a href="" class="no-uline he">구입하기 ></a>
+          <a href="https://www.apple.com/kr/iphone-13/" class="no-uline he">더 알아보기 ></a>
+          <a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13" class="no-uline he">구입하기 ></a>
         </p>
         <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
       </div>
 
       <div class="divider-space-he"></div>
 
-      <div class="contents-he-2" OnClick="location.href ='https://google.com'"
+      <div class="contents-he-2" OnClick="location.href ='https://www.apple.com/kr/apple-watch-series-7/'"
         <br /><br /><br /><br />
         <!-- <img src="./img/ogo_watch.png"> -->
         <p style="font-size: 50px; margin-bottom: 0px">
@@ -516,15 +587,15 @@
           <p style="font-size: 18px; margin-bottom: 0px; color: red; margin-top: 0px;"> S E R I E S  7</p>
         <p style="font-size: 25px; margin-top: 10px">이제껏 가장 큰 디스플레이 탑재.</p>
         <p style="font-size: 18px">
-            <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-            <a href="" class="no-uline he">구입하기 ></a>
+            <a href="https://www.apple.com/kr/apple-watch-series-7/" class="no-uline he">더 알아보기 ></a>
+            <a href="https://www.apple.com/kr/shop/buy-watch/apple-watch" class="no-uline he">구입하기 ></a>
         </p>
         <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
       </div>
 
       <div class="divider-space-he"></div>
 
-      <div class="contents-he-3" OnClick="location.href ='https://google.com'">
+      <div class="contents-he-3" OnClick="location.href ='https://www.apple.com/kr/macbook-air-m2/'">
         <div class = "words">
             <p style="font-size: 50px; margin-bottom: 0px">
                 <b>MacBook Air</b>
@@ -532,8 +603,8 @@
               <p style="font-size: 18px; margin-bottom: 0px; margin-top: 0px;"> 막강한 성능의 M2</p>
             <p style="font-size: 25px; margin-top: 10px; color: rgb(60, 60, 60)">7월 8일 오후 9시 주문 시작.</p>
             <p style="font-size: 18px">
-                <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-                <a href="" class="no-uline he">구입하기 ></a>
+                <a href="https://www.apple.com/kr/macbook-air-m2/" class="no-uline he">더 알아보기 ></a>
+                <a href="https://www.apple.com/kr/shop/buy-mac/macbook-air/m2-칩-모델" class="no-uline he">구입하기 ></a>
             </p>
         </div>
         
@@ -544,29 +615,63 @@
 
       <div class ="div-he">
         <div class="div-he-left mbpro">
-            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/macbook-pro-13/'">
         <!-- <img src="./img/ogo_watch.png"> -->
         <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
             <b>MacBook Pro 13</b>
           </p>
           <img src="./img/logo_m2_black.png" width="170px">
         <p style="font-size: 16px; margin-top: 20px;">
-            <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-            <a href="" class="no-uline he">구입하기 ></a>
+            <a href="https://www.apple.com/kr/macbook-pro-13/" class="no-uline he">더 알아보기 ></a>
+            <a href="https://www.apple.com/kr/shop/buy-mac/macbook-pro/13" class="no-uline he">구입하기 ></a>
         </p>
         <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
       </div>
         </div>
         <div class="div-he-right iphone13pro">
-            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/iphone-13-pro/'">
                 <!-- <img src="./img/ogo_watch.png"> -->
                 <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
                     <b>iPhone 13 Pro</b>
                   </p>
                   <p style="font-size: 20px;">이게 바로 프로.</p>
                 <p style="font-size: 16px; margin-top: 20px;">
-                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-                    <a href="" class="no-uline he">구입하기 ></a>
+                    <a href="https://www.apple.com/kr/iphone-13-pro/" class="no-uline he">더 알아보기 ></a>
+                    <a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13-pro" class="no-uline he">구입하기 ></a>
+                </p>
+                <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+              </div>
+        </div>
+      </div>
+
+      <!-- <div class="divider-space-he"></div> -->
+
+      <div class ="div-he">
+        <div class="div-he-left airpods">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/airpods-pro/'">
+        <!-- <img src="./img/ogo_watch.png"> -->
+        <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
+            <b>AirPods Pro</b>
+          </p>
+          <p style="font-size: 20px; color: white;">새롭게 귓가를 찾아온 매혹.</p>
+          <!-- <img src="./img/logo_m2_black.png" width="170px"> -->
+        <p style="font-size: 16px; margin-top: 20px;">
+            <a href="https://www.apple.com/kr/airpods-pro/" class="no-uline he">더 알아보기 ></a>
+            <a href="https://www.apple.com/kr/shop/product/MLWK3KH/A/airpods-pro" class="no-uline he">구입하기 ></a>
+        </p>
+        <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
+      </div>
+        </div>
+        <div class="div-he-right iphone13pro">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/iphone-13-pro/'">
+                <!-- <img src="./img/ogo_watch.png"> -->
+                <p style="font-size: 40px; margin-top: 40px; margin-bottom: 0px;">
+                    <b>iPhone 13 Pro</b>
+                  </p>
+                  <p style="font-size: 20px;">이게 바로 프로.</p>
+                <p style="font-size: 16px; margin-top: 20px;">
+                    <a href="https://www.apple.com/kr/iphone-13-pro/" class="no-uline he">더 알아보기 ></a>
+                    <a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13-pro" class="no-uline he">구입하기 ></a>
                 </p>
                 <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
               </div>
@@ -575,37 +680,203 @@
 
       <div class ="div-he">
         <div class="div-he-left ipad_air">
-            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/ipad-air/'">
                 <!-- <img src="./img/ogo_watch.png"> -->
                 <img src="./img/logo_ipadair.png" width="150px" style="margin-top: 50px;">
                   <p style="font-size: 20px;">가뿐하게. 색다르게. 강렬하게.</p>
                 <p style="font-size: 16px; margin-top: 20px;">
-                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-                    <a href="" class="no-uline he">구입하기 ></a>
+                    <a href="https://www.apple.com/kr/ipad-air/" class="no-uline he">더 알아보기 ></a>
+                    <a href="https://www.apple.com/kr/shop/buy-ipad/ipad-air" class="no-uline he">구입하기 ></a>
                 </p>
                 <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
               </div>
         </div>
         <div class="div-he-right ipad">
-            <div class="contents-he-mbpr" OnClick="location.href ='https://google.com'">
+            <div class="contents-he-mbpr" OnClick="location.href ='https://www.apple.com/kr/ipad-10.2/'">
                 <!-- <img src="./img/ogo_watch.png"> -->
                 <br><br><Br><Br><br><br><br><br><Br><Br><br><br><br><br><Br><Br><br><br>
                     <p style="font-size: 15px; margin-bottom: 0px;">새로워진</p>
-                <p style="font-size: 40px; margin-top: 0px; margin-bottom: 0px;">
+                <p style="font-size: 40px; margin-top: -10px; margin-bottom: 0px;">
                     <b>iPad</b>
                   </p>
-                  <p style="font-size: 20px;">매사를 더욱 쉽게.</p>
+                  <p style="font-size: 20px; margin-bottom: -10px;">매사를 더욱 쉽게.</p>
                 <p style="font-size: 16px; margin-top: 20px;">
-                    <a href="https://google.com" class="no-uline he">더 알아보기 ></a>
-                    <a href="" class="no-uline he">구입하기 ></a>
+                    <a href="https://www.apple.com/kr/ipad-10.2/" class="no-uline he">더 알아보기 ></a>
+                    <a href="https://www.apple.com/kr/shop/buy-ipad/ipad-10-2" class="no-uline he">구입하기 ></a>
                 </p>
                 <!-- <img src="./img/iphone13_2.jpg" width="100%" /> -->
               </div>
         </div>
       </div>
 
+      
+      <!-- <p>abcd</p> -->
+      <!-- <div class="container container-he">
+        <p>abcd</p>
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top footer-he">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <p class="text-muted">&copy; 2022</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div> -->
 
     </main>
+    <div class="footer-box" style="background-color: white; padding-top:10px;">
+
+      
+      <div class="footer-he-2" style="padding-top: 0px;">
+        <p style="font-size: 11px; color:rgb(88, 88, 88); margin-top: 20px; margin-bottom: -10px;">무료 체험 기간이 끝나면 월 6,500원에 이용할 수 있습니다. 본인 또는 가족 구성원이 구입한 기기 수에 상관없이, 무료 체험 혜택은 Apple ID당 한 번 또는 본인이 ‘가족 공유’ 그룹의 구성원일 경우 그룹당 한 번만 제공됩니다. 본인
+          <br>또는 가족 구성원이 이미 Apple TV+ 3개월 무료 체험 혜택을 이용한 경우에는 이 혜택을 이용할 수 없습니다. 무료 체험 혜택은 적용 대상 기기 활성화 이후 3개월 안에 신청할 수 있습니다. 멤버십은 매월 자동으로 갱신되며, 해지 시
+          <br>종료됩니다. 특정 제한 사항 및 기타 약관이 적용됩니다.</p>
+          
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top footer-he" style="margin-top: -200px;">
+          
+          <!-- <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <p class="text-muted">&copy; 2022</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div> -->
+      
+          <div class="col mb-3" style="margin-top: -10px;">
+            <p "style="font-size: 20px;""><b>쇼핑 더 알아보기</b></p>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/store" class="nav-link p-0 text-muted font-he">스토어</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/mac/" class="nav-link p-0 text-muted font-he">Mac</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/ipad/" class="nav-link p-0 text-muted font-he">iPad</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/iphone/" class="nav-link p-0 text-muted font-he">iPhone</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/watch/" class="nav-link p-0 text-muted font-he">Watch</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/airpods/" class="nav-link p-0 text-muted font-he">Airpods</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/tv-home/" class="nav-link p-0 text-muted font-he">TV 및 홈</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/airtag/" class="nav-link p-0 text-muted font-he">AirTag</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/shop/accessories/all" class="nav-link p-0 text-muted font-he">액세서리</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <p "style="font-size: 20px;""><b>서비스</b></p>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-music/" class="nav-link p-0 text-muted font-he">Apple Music</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-tv-plus/" class="nav-link p-0 text-muted font-he">Apple TV+</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-arcade/" class="nav-link p-0 text-muted font-he">Apple Arcade</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/icloud/" class="nav-link p-0 text-muted font-he">iCloud</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-books/" class="nav-link p-0 text-muted font-he">Apple Books</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-podcasts/" class="nav-link p-0 text-muted font-he">Apple podcasts</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/app-store/" class="nav-link p-0 text-muted font-he">App Store</a></li>
+              <br>
+              <p "style="font-size: 20px;""><b>계정</b></p>
+              <li class="nav-item mb-2"><a href="https://appleid.apple.com/kr/" class="nav-link p-0 text-muted font-he">Apple ID 관리</a></li>
+              <li class="nav-item mb-2"><a href="https://secure4.store.apple.com/kr/shop/signIn/account?ssi=1AAABgegMVMYgX30A0HssyeIbppAMz1n328gpVZMdr1scpPRuOmNx_7QAAAA2aHR0cHM6Ly9zZWN1cmU0LnN0b3JlLmFwcGxlLmNvbS9rci9zaG9wL2FjY291bnQvaG9tZXx8AAIB5UuI9F-a4YTW29SLMaDB_UmzM6QZaVM6FZJdsvk7sHE" class="nav-link p-0 text-muted font-he">Apple Store 계정</a></li>
+              <li class="nav-item mb-2"><a href="https://www.icloud.com" class="nav-link p-0 text-muted font-he">iCloud.com</a></li>
+
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <p "style="font-size: 20px;""><b>Apple Strore</b></p>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/retail/" class="nav-link p-0 text-muted font-he">매장찾기</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/retail/geniusbar/" class="nav-link p-0 text-muted font-he">Genius Bar</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/today/" class="nav-link p-0 text-muted font-he">Today at Apple</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/today/collection/apple-camp/" class="nav-link p-0 text-muted font-he">Apple 캠프</a></li>
+              <li class="nav-item mb-2"><a href="https://apps.apple.com/kr/app/apple-store/id375380948" class="nav-link p-0 text-muted font-he">Apple Store 앱</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/shop/refurbished" class="nav-link p-0 text-muted font-he">리퍼 및 특가 제품</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/shop/browse/financing" class="nav-link p-0 text-muted font-he">금융 혜택</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/trade-in/" class="nav-link p-0 text-muted font-he">Apple Trade in</a></li>
+              <li class="nav-item mb-2"><a href="https://secure4.store.apple.com/kr/shop/signIn/orders?ssi=1AAABgegOvDQgJFYCuqg0M7inHRg_POsz25oeQtnO7qvtmXzRrAXSkyQAAAA0aHR0cHM6Ly9zZWN1cmU0LnN0b3JlLmFwcGxlLmNvbS9rci9zaG9wL29yZGVyL2xpc3R8fAACAZ3JhGTioU7XwbDXeqCzR0h3Zydyr5iHxOfXlTGqVgFI" class="nav-link p-0 text-muted font-he">주문 상태</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/shop/help" class="nav-link p-0 text-muted font-he">쇼핑 도움말</a></li>
+
+
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <p "style="font-size: 20px;""><b>비즈니스</b></p>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/business/" class="nav-link p-0 text-muted font-he">Apple과 비즈니스</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/retail/business/" class="nav-link p-0 text-muted font-he">비즈니스를 위한 제품 쇼핑하기</a></li>
+              <br>
+              <p "style="font-size: 20px;""><b>교육</b></p>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/education/" class="nav-link p-0 text-muted font-he">Apple과 교육</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/education/k12/how-to-buy/" class="nav-link p-0 text-muted font-he">초중고용 제품 쇼핑하기</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/shop/education-pricing" class="nav-link p-0 text-muted font-he">대학 생호라을 위한 제품 쇼핑하기</a></li>
+            </ul>
+          </div>
+
+          <div class="col mb-3">
+            <p "style="font-size: 20px;""><b>Apple의 가치관</b></p>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/accessibility/" class="nav-link p-0 text-muted font-he">손쉬운 사용</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/environment/" class="nav-link p-0 text-muted font-he">환경</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/privacy/" class="nav-link p-0 text-muted font-he">개인정보 보호</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/supplier-responsibility/" class="nav-link p-0 text-muted font-he">협력업체에 대한 책임</a></li>
+              <br>
+              <p "style="font-size: 20px;""><b>Apple 정보</b></p>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/newsroom/" class="nav-link p-0 text-muted font-he">Newsroom</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/leadership/" class="nav-link p-0 text-muted font-he">Apple 리더십</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/careers/kr/" class="nav-link p-0 text-muted font-he">채용 안내</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/compliance/" class="nav-link p-0 text-muted font-he">윤리 및 규정 준수</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/apple-events/" class="nav-link p-0 text-muted font-he">이벤트</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/job-creation/" class="nav-link p-0 text-muted font-he">일자리 창출</a></li>
+              <li class="nav-item mb-2"><a href="https://www.apple.com/kr/contact/" class="nav-link p-0 text-muted font-he">Apple 연락처</a></li>
+            </ul>
+          </div>
+          
+        </footer>
+        <p style="font-size: 11px; color:rgb(88, 88, 88);">다양한 쇼핑 방법: Apple Store를 방문하거나, 리셀러를 찾아보거나, 080-330-8877번으로 전화하세요.</p>
+        <hr>
+
+          <p style="font-size: 11px; color:rgb(88, 88, 88); ">Copyright © 2022 Apple Inc. 모든 권리 보유.      개인정보 처리방침  |  웹 사이트 이용 약관  |  
+            판매 및 환불  |  법적 고지  |  사이트 맵</p>
+            <p style="font-size: 11px; color:rgb(159, 159, 159);" >사업자등록번호 : 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000</p>
+          <br>
+      </div>
+    </div>
+      
 
     <script
       src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
