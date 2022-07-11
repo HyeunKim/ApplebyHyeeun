@@ -5,7 +5,6 @@
 Apple 사이트의 일부 파트를 클론코딩하려 합니다.
 
 개발 사이트는 [애플byHyeeun](http://applebyhyeeun.dothome.co.kr) 입니다.
-아직 반응형(responsive) 웹사이트로는 만들지 못했습니다..ㅜㅜ
 
 클론할 사이트
 
