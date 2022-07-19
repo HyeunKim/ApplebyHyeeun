@@ -74,6 +74,7 @@
             for (let i = 0; i < culuture_space_list.length; i++) {
               let type = culuture_space_list[i]["SUBJCODE"];
               if (type == searchValue) {
+                let num = culuture_space_list[i]["NUM"];
                 let name = culuture_space_list[i]["FAC_NAME"];
                 let address = culuture_space_list[i]["ADDR"];
                 let number = culuture_space_list[i]["PHNE"];
@@ -82,6 +83,7 @@
                 let tr_culture_space = ``;
 
                 tr_culture_space = `<tr>
+                                              <td>${num}</td>
                                               <td>${type}</td>
                                               <td>${name}</td>
                                               <td>${address}</td>
