@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .slide-container {
+        width: 500px;
+        float: right;
+        height: 200px;
+      }
+
+      .slide-box {
+        /* width: 500px; */
+        float: left;
+      }
+
+      .container {
+        /* float: left; */
+      }
+
+      div {
+        float: left;
+      }
+    </style>
+    <script>
+      let curr = 1; //현재 보이는 사진
+
+      $(".next-btn").click(() => {
+        if (curr < 3) {
+          //현재 보이는 사진의 값이 3보다 작다면 translateX()에 curr를 할당하고
+          $(".slide-container").css("transform", `translateX(-${curr})00vw`);
+          //curr에 1를 더해준다.
+          curr += 1;
+        }
+      });
+
+      $(".prior-btn").click(() => {
+        //curr값을 translateX()에 할당하고
+        $(".slide-container").css("transform", `translateX(-${curr - 2})00vw`);
+        //curr가 1보다 큰 경우 1를 빼준다.
+        if (curr > 1) {
+          curr -= 1;
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <h4 class="my-4 text-center">ShowCase</h4>
+    <!-- overflow : 넘치는 부분을 숨겨줌. -->
+    <div class="container" style="overflow: hidden">
+      <div class="slide-btn">
+        <button class="prior-btn"><</button>
+        <button class="next-btn">></button>
+      </div>
+      <div class="slide-container">
+        <div class="slide-box">
+          <img
+            class="fruits fruits1"
+            src="img/icecream.jpg"
+            alt="banana"
+            style="width: 300px"
+          />
+        </div>
+        <div class="slide-box">
+          <img
+            class="fruits fruits2"
+            src="img/apple.png"
+            alt="manggo"
+            style="width: 300px"
+          />
+        </div>
+        <div class="slide-box">
+          <img
+            class="fruits fruits3"
+            src="img/ipadair_2.jpg"
+            alt="orange"
+            style="width: 300px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <button class="slide-1">1</button>
+    <button class="slide-2">2</button>
+    <button class="slide-3">3</button>
+
+    <div class="my-5"></div>
+  </body>
+</html>
